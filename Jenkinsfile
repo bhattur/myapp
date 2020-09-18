@@ -11,7 +11,7 @@ steps {
 bat "mvn test"
 }
 }
-stage("------package-----------) {
+stage('------package-----------') {
 steps {
 bat "mvn package"
 }
